@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .name {
+            color: grey;
+            background-color: black;
+            text-align: center;
+            border-radius: 20px;
+
+        }
+
+        /* --------Navbar Region------------- */
+        .navbar1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding: 0px;
+            list-style: none;
+            text-decoration: none;
+            margin-right: 11%;
+        }
+
+        .nav-link {
+            font-weight: 600;
+            margin-left: 30px;
+            color: grey;
+            text-decoration: none;
+        }
+
+        .nav-link:hover {
+            color: black;
+        }
+
+
+        /* ----------Intro region---------------- */
+
+        .introhead {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .intromain {
+            margin-left: 30px;
+        }
+
+        .btn1 {
+            text-decoration: none;
+            color: black;
+            background-color: grey;
+            size: 500px;
+            border-radius: 20px;
+
+        }
+
+        /* ------------About us section---------- */
+        .abouthead {
+            text-align: center;
+        }
+
+        .abouthead:hover {
+            color: grey;
+        }
+
+        .aboutpara {
+            text-align: center;
+        }
+
+        /* ----------Skill Section-------- */
+
+        .skillshead {
+            text-align: center;
+        }
+
+        .skillshead:hover {
+            color: grey;
+            text-align: center;
+        }
+
+        .skillslist {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ------------------Contact Section-------------- */
+        .contacthead {
+            text-align: center;
+        }
+
+        .contacthead:hover {
+            color: grey;
+            text-align: center;
+
+        }
+
+        .contactbuttons {
+            text-align: center;
+            font-weight: 1000px;
+        }
+
+
+        /* ----------------Footer Section--------------- */
+        .end {
+            background-color: black;
+            border-radius: 20px;
+        }
+
+        .endname {
+            color: grey;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="name">
+        <h1>Whisual</h1>
+    </div>
+    <!-- ----------Navigation Bar Section Starts---------- -->
+    <div class="navbar">
+        <ul class="navbar1">
+            <li class="navbaritem">
+                <a class="nav-link" href="home">Home</a>
+            </li>
+            <li class="navbaritem">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- ----------Navigation Bar Section Ends---------- -->
+
+    <!-- ----------Intro Section Starts---------- -->
+    <div class="introhead" id="home">
+        <div class="introimg">
+            <img src="https://cdn.mos.cms.futurecdn.net/3vFQXTfYzLj9gZqzmVbPtd.jpg" alt="featureimage" width="700px"
+                height="300px">
+        </div>
+        <div class="intromain">
+            <h2>Hi, <br> I'm <span class="title-name" style="color: grey;">Vishal Sharma</span>
+                <br> Professional Photographer
+            </h2>
+            <a href="https://www.instagram.com/whisual/?hl=en" class="btn1">Resume</a>
+
+        </div>
+    </div>
+
+
+    <!-- ----------Intro Section Ends---------- -->
+
+    <!-- ----------About Section Starts---------- -->
+    <div class="aboutsection" id="about">
+        <Div class="abouthead">
+            <h1>About</h1>
+        </Div>
+        <div class="aboutpara">
+            <p> Hi there! Myself Vishal Sharma and i am a professional photographer with the experience of 3+
+                years in street, portrait, fashion, product and many fields of photography . Currently i am
+                working professionaly and independently and looking for some interesting projects to hands on .
+                You can check my work here and i am also leaving my instagram handle so that you can explore
+                more of my work .</p>
+        </div>
+    </div>
+
+
+    <!-- ----------About Section Ends---------- -->
+
+    <!-- ----------Skills Section Starts---------- -->
+
+    <div id="skills">
+        <div class="skillshead">
+            <h1>Skills</h1>
+        </div>
+        <div class="skillslist">
+            <ul>
+                <li>Portait Photgraphy</li>
+                <li>Fashion Photgraphy</li>
+                <li>Wildlife Photgraphy</li>
+                <li>Street Photgraphy</li>
+                <li>Product Photgraphy</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ----------Skills Section Ends---------- -->
+    <!-- ----------Contact Section Starts---------- -->
+    <div id="contact">
+        <div class="contacthead">
+            <h1>Contact</h1>
+        </div>
+        <div class="contactbuttons">
+            <label>Name</label>
+            <input type="text" placeholder="name">
+            <br>
+            <label>Email</label>
+            <input type="email" placeholder="name@example.com">
+            <br>
+            <label>Your Message</label>
+            <textarea class="form-control" rows="3"></textarea>
+            <br>
+            <button type="button" style="background-color:grey; border-radius: 5px;">Submit</button>
+        </div>
+    </div>
+
+    <!-- ----------Contact Section Ends---------- -->
+
+    <!-- ----------Footer Section Starts---------- -->
+
+    <footer class="footer-div">
+        <div class="end">
+            <div>
+                <h2 class="endname">Whisual</h2>
+            </div>
+            <div>
+                <p class="endname">© copyright all right reserved</p>
+            </div>
+        </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ----------Footer Section Ends---------- -->
+</body>
+
+</html>
